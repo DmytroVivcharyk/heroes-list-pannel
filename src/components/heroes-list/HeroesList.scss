@@ -1,0 +1,42 @@
+.heroCard {
+    &-enter {
+        opacity: 0;
+        transform: translateX(-150px);
+    };
+
+    &-enter-active {
+        opacity: .8;
+        transform: translateX(100px);
+        transition: all 500ms ease-out ;
+    };
+
+    &-exit {
+        opacity: .8;
+        transform: translateX(0);
+    };
+
+    &-exit-active {
+        opacity: 0;
+        transform: translateX(150px);
+        transition: all 500ms ease-in ;
+    }
+
+}
+
+@keyframes myrotate {
+    
+    from { 
+        transform: translateX(100px); 
+        opacity: .8
+    }
+  
+    to { 
+        transform: translateX(0); 
+        opacity: 1
+    }
+  
+  }
+
+  .animate {
+    animation: myrotate 500ms linear;
+  }

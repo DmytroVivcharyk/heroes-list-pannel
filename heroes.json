@@ -1,0 +1,41 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "name": "First Hero",
+      "description": "Some awesome hero",
+      "element": "fire"
+    },
+    {
+      "id": 2,
+      "name": "Another hero",
+      "description": "Powerful and mighty airbender",
+      "element": "wind"
+    },
+    {
+      "id": 3,
+      "name": "Definetly Poseidon",
+      "description": "Lord of the oceans and seas",
+      "element": "water"
+    },
+    {
+      "name": "zsfasdfd",
+      "description": "dsfzdvzf",
+      "element": "earth",
+      "id": "290d5e19-527a-4249-b509-3bbc28ef0989"
+    },
+    {
+      "name": "dddddddd",
+      "description": "SDCDC",
+      "element": "water",
+      "id": "915406f7-ff72-4d45-87f8-cba68f34ccb2"
+    }
+  ],
+  "filters": [
+    "all",
+    "fire",
+    "water",
+    "wind",
+    "earth"
+  ]
+}
